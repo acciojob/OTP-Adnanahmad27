@@ -31,7 +31,7 @@ function onKeyUp(e) {
 for(let i=1 ; i<=6 ; i++){
 	const code_continer = document.createElement("input");
 	code_continer.className = "code";
-	code_continer.id = `code-{i}` ;
+	code_continer.id = `code-${i}` ;
 	code_continer.maxLength = 1;
 	container.appendChild(code_continer);
 	code_continer.addEventListener("input" , onInput);
