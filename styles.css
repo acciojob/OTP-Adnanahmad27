@@ -27,10 +27,10 @@ body > div{
 .code{
 	
 	border : 2px solid #b8c7c7;
-	width : 30px;
-	height:50px;
-	border-radius:25px;
-	font-size:2rem;
+	width : 21px;
+	height:38px;
+	border-radius:17px;
+	font-size:1.2rem;
 	text-align:center;
 }
 .code:focus{

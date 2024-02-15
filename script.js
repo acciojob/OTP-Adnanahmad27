@@ -13,7 +13,7 @@ function onBackspace(e) {
 }
 
 function onInput(e){
-	const currEle = e.target;
+	const currEle = e.target; 
 	if(currEle.value){
 		lastEnteredInputElemet = currEle;
 		currEle.nextElementSibling && currEle.nextElementSibling.focus();
@@ -36,5 +36,9 @@ for(let i=1 ; i<=6 ; i++){
 	container.appendChild(code_continer);
 	code_continer.addEventListener("input" , onInput);
 	code_continer.addEventListener("keyup" , onKeyUp);
+	if(i===1){
+		code_continer.focus();		
+
+	}
 }
 
